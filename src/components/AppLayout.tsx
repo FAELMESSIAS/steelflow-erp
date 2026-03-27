@@ -3,7 +3,7 @@ import { Outlet, useNavigate, useLocation } from 'react-router-dom';
 import {
   LayoutDashboard, FileText, ClipboardList, Users, Package,
   Factory, DollarSign, Receipt, MessageCircle, Settings,
-  ChevronLeft, ChevronRight, Zap, LogOut,
+  ChevronLeft, ChevronRight, Zap, LogOut, LayoutGrid,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { NavLink } from '@/components/NavLink';
