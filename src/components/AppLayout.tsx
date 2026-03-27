@@ -11,6 +11,7 @@ import { NavLink } from '@/components/NavLink';
 const menuItems = [
   { title: 'Dashboard', icon: LayoutDashboard, path: '/dashboard' },
   { title: 'Orçamentos', icon: FileText, path: '/orcamentos' },
+  { title: 'Nesting', icon: LayoutGrid, path: '/nesting' },
   { title: 'Pedidos', icon: ClipboardList, path: '/pedidos' },
   { title: 'Clientes', icon: Users, path: '/clientes' },
   { title: 'Estoque', icon: Package, path: '/estoque' },
