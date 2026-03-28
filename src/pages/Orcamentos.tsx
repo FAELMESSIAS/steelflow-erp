@@ -8,6 +8,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Plus, Trash2, Calculator, Send } from 'lucide-react';
 import { mockQuotes, mockMaterials, mockClients, defaultConfig } from '@/data/mockData';
+import DxfUpload from '@/components/DxfUpload';
 import { Quote, QuotePiece } from '@/types';
 
 const statusMap: Record<string, { label: string; variant: 'default' | 'secondary' | 'destructive' | 'outline' }> = {
