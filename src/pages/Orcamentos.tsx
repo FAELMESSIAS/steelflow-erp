@@ -99,6 +99,9 @@ const Orcamentos = () => {
                 </div>
               </div>
 
+              {/* Upload DXF */}
+              <DxfUpload />
+
               {/* Pieces */}
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
